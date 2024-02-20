@@ -1,11 +1,92 @@
-p {
-  color: #242a45;
+.nav_link {
+  color: #242A45;
+  font-size: 13px;
+  text-decoration-line: none;
 }
 
-article {
+.items-link {
+  background-color: #fa5959;
+  color: #fff;
+  font-size: 13px;
+  text-decoration-line: none;
+}
+
+.title-meneger {
+  color: #242a45;
+  font-size: 48px;
+}
+
+.text {
+  color: #242a45;
+  font-size: 18px;
+}
+
+.text-link {
+  background-color: #5267df;
+  color: #fff;
+  font-size: 14px;
+  text-decoration-line: none;
+}
+
+.link-text {
+  background-color: #f7f7f7;
+  color: #242a45;
+  font-size: 14px;
+  text-decoration-line: none;
+}
+
+.title {
+  color: #242a45;
+  font-size: 32px;
+}
+
+.user-link {
+  color: #242a45;
+  font-size: 16px;
+  text-decoration-line: none;
+}
+
+.title-version {
+  color: #242a45;
+  font-size: 20px;
+}
+
+.text-version {
+  color: #242a45;
+  font-size: 15px;
+}
+
+.items-faq {
+  color: #242a45;
+  font-size: 18px;
+}
+
+.artic {
   background-color: #5267df;
 }
 
-footer {
+.number {
+  color: #fff;
+  font-size: 13px;
+}
+
+.artic-title {
+  color: #fff;
+}
+
+.title-link {
+  background-color: #fa5959;
+  color: #fff;
+  font-size: 14px;
+  text-decoration-line: none;
+}
+
+.footer-list {
   background-color: #242a45;
+}
+
+.footer-link {
+  color: #fff;
+  font-size: 13px;
+  text-decoration-line: none;
 }
