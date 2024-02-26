@@ -1,11 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 1104px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.hero {
+  padding-top: 48px;
+}
+
+.img-logo {
+  text-decoration-line: none;
+}
+
+.hero-nav {
+  display: inline-block;
+}
+
+.hero-img {
+  text-decoration-line: none;
+  margin-right: 504px;
+}
+
+.navigation {
+  display: inline-block;
+}
+
 .list {
   list-style: none;
   border-radius: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.items {
+  display: inline-block;
 }
 
 .nav_link {
+  display: inline-block;
   color: #242A45;
   font-size: 13px;
+  margin-right: 44px;
   text-decoration-line: none;
 }
 
@@ -13,11 +56,12 @@
   background-color: #fa5959;
   color: #fff;
   font-size: 13px;
+  padding: 12px 32px 11px 34px;
   text-decoration-line: none;
   border-radius: 5px;
 }
 
-.manager {
+.manager-box {
   display: inline-block;
   width: 540px;
 }
@@ -25,17 +69,26 @@
 .title-meneger {
   color: #242a45;
   font-size: 48px;
+  margin-bottom: 24px;
+  margin-top: 0;
 }
 
-.text {
+.text-meneger {
   color: #242a45;
   font-size: 18px;
+  margin-bottom: 42px;
+}
+
+.images-meneger {
+  margin-top: 110px;
 }
 
 .text-link {
   background-color: #5267df;
   color: #fff;
   font-size: 14px;
+  margin-right: 16px;
+  padding: 10px 24px;
   text-decoration-line: none;
   border-radius: 5px;
 }
@@ -44,6 +97,7 @@
   background-color: #f7f7f7;
   color: #242a45;
   font-size: 14px;
+  padding: 10px 24px;
   text-decoration-line: none;
 }
 
@@ -51,13 +105,33 @@
   border-radius: 25px;
 }
 
-.title {
+.title-feature {
   color: #242a45;
   font-size: 32px;
+  text-align: center;
+}
+
+.text-feature {
+  color: #242a45;
+  text-align: center;
+  font-size: 18px;
 }
 
 .feature {
+  display: inline-block;
   width: 540px;
+  margin-top: 80px;
+  margin-left: 200px;
+}
+
+.list-feature {
+  list-style: none;
+  margin-top: 72px;
+}
+
+.items-feature {
+  display: inline-block;
+  margin-right: 90px;
 }
 
 .user-link {
@@ -66,32 +140,98 @@
   text-decoration-line: none;
 }
 
-.on-click {
+.click-box {
   display: inline-block;
   width: 445px;
 }
 
+.text-link-info {
+  background-color: #5267df;
+  text-decoration-line: none;
+  color: #fff;
+  padding: 10px 24px;
+  border-radius: 5px;
+}
+
 .extension {
   width: 541px;
+  margin-top: 149px;
+  margin-left: 200px;
+}
+
+.title-extension {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.text-extension {
+  color: #242A45;
+  font-size: 18px;
+  margin-bottom: 44px;
 }
 
 .title-version {
   color: #242a45;
   font-size: 20px;
+  margin-top: 32px;
 }
 
 .faq {
   width: 540px;
+  margin-top: 149px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.text-version {
-  color: #242a45;
-  font-size: 15px;
+.title-faq {
+  color: #242A45;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.text-faq {
+  color: #242A45;
+  text-align: center;
+  font-size: 18px;
+  margin: 0;
+}
+
+.list-faq {
+  margin-top: 56px;
 }
 
 .items-faq {
   color: #242a45;
   font-size: 18px;
+  margin-top: 19px;
+}
+
+.faq-link {
+  display: inline-block;
+  background-color: #5267df;
+  color: #fff;
+  text-align: center;
+  text-decoration-line: none;
+  margin-top: 54px;
+  margin-bottom: 150px;
+  padding: 10px 24px;
+  border-radius: 5px;
+}
+
+.text-version {
+  color: #242a45;
+  font-size: 15px;
+  margin-bottom: 132px;
+}
+
+.extension-link {
+  background-color: #5267df;
+  color: #fff;
+  text-decoration-line: none;
+  padding: 10px 34px 10px 35px;
+  border-radius: 5px;
+  margin-right: 82px;
 }
 
 .artic {
@@ -99,23 +239,45 @@
 }
 
 .number {
+  display: inline-block;
   color: #fff;
+  margin-top: 58px;
   font-size: 13px;
 }
 
 .artic-title {
   color: #fff;
+  margin-top: 24px;
 }
 
 .title-link {
+  display: inline-block;
   background-color: #fa5959;
   color: #fff;
   font-size: 14px;
+  margin-top: 36px;
+  margin-bottom: 74px;
+  padding: 10px 24px;
+  border-radius: 5px;
   text-decoration-line: none;
 }
 
 .footer-list {
   background-color: #242a45;
+}
+
+.list-iteam {
+  display: inline-block;
+  list-style: none;
+}
+
+.items-footer {
+  display: inline-block;
+  margin-right: 44px;
+}
+
+.logo {
+  display: inline-block;
 }
 
 .footer-link {
