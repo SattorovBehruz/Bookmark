@@ -285,3 +285,12 @@ body {
   font-size: 13px;
   text-decoration-line: none;
 }
+
+.list-logo {
+  display: inline-block;
+  list-style: none;
+}
+
+.iteam-logo {
+  display: inline-block;
+}
