@@ -4,324 +4,450 @@
 
 body {
   margin: 0;
+  font-family: "Rubik", "Arial", sans-serif;
+}
+
+img {
+  display: block;
+  height: auto;
 }
 
 .container {
-  width: 1124px;
-  margin: 0 auto;
-  padding: 0 20px;
+  width: 1144px;
+  margin-inline: auto;
+  padding-inline: 20px;
 }
 
-.site-logo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 8px;
-  padding-bottom: 13px;
+.list-unstyled {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.logo-link {
-  text-decoration-line: none;
-}
-
-.site-nav {
+.heding-box {
   display: flex;
   align-items: center;
+}
+
+.navigation {
+  margin-left: auto;
+  margin-right: 82px;
 }
 
 .nav-list {
   display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
-.nav-iteam {
+.nav-item {
   margin-right: 44px;
+}
+
+.item {
+  margin: 0;
 }
 
 .nav-link {
   color: #242a45;
-  font-size: 13px;
+  font-family: Rubik;
   text-decoration-line: none;
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: 1.5px;
 }
 
-.site-link {
+.nav-link:hover {
+  color: #fa5959;
+}
+
+.login-link {
   background-color: #fa5959;
   color: #fff;
   font-size: 13px;
-  border-radius: 5px;
   padding: 12px 32px 11px 34px;
   text-decoration-line: none;
+  border-radius: 5px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 1.5px;
+  border: 2px solid transparent;
 }
 
-.section-box {
-  margin-top: 110px;
+.login-link:hover {
+  background-color: #fff;
+  color: #fa5959;
+  border-radius: 5px;
+  border: 2px solid #FA5959;
+  box-shadow: none;
 }
 
-.section-box {
+.hero-section {
+  padding-top: 110px;
+  background-image: url("../images/tabletfon.svg");
+  background-size: 515px 352px;
+  background-position: calc(50% + 500px) calc(50% + 140px);
+  background-repeat: no-repeat;
+  border: 316px;
+}
+
+.hero {
   display: flex;
 }
 
-.simple-section {
+.hero-box {
   width: 540px;
-  margin-right: 65px;
+}
+
+.hero-title {
+  color: #242a45;
   margin-top: 68px;
-}
-
-.simple-title {
-  color: #242a45;
-  font-size: 48px;
-  margin-top: 0;
   margin-bottom: 24px;
+  font-size: 48px;
+  line-height: 52px;
 }
 
-.simple-text {
-  color: #242a45;
-  font-size: 18px;
+.hero-text {
+  color: #242a4599;
   margin-top: 0;
   margin-bottom: 32px;
+  font-size: 18px;
+  line-height: 28px;
 }
 
-.simple-link {
-  background-color: #5267df;
+.hero-link {
+  background: #5267DF;
   color: #fff;
-  font-size: 14px;
-  border-radius: 5px;
   margin-right: 16px;
   padding: 10px 24px;
   text-decoration-line: none;
-}
-
-.section-link {
-  background-color: #f7f7f7;
-  color: #242a45;
   font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
   border-radius: 5px;
-  padding: 10px 24px;
-  text-decoration-line: none;
+  background: #5267DF;
+  border: 2px solid transparent;
 }
 
-.feature-box {
-  width: 540px;
+.hero-link:hover {
+  background-color: #fff;
+  color: #5267DF;
+  border-radius: 5px;
+  border: 2px solid #5267DF;
+}
+
+.section-hero-link {
+  color: #242a45;
+  padding: 10px 25px;
+  text-decoration-line: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px; 
+  border-radius: 5px;
+  background: #f7f7f7;
+  border: 2px solid transparent;
+}
+
+.section-hero-link:hover {
+  background: #fff;
+  border: 2px solid #5B6074;
+}
+
+.section-features {
   margin-top: 80px;
+  padding-bottom: 140px;
+  background-image: url("../images/tablettwofon.svg");
+  background-size: 640px 352px;
+  background-position: calc(50% - 500px) calc(50% + 200px);
+  background-repeat: no-repeat;
+  border: 316px;
+}
+
+.features {
+  width: 540px;
   margin-right: auto;
   margin-left: auto;
 }
 
-.feature-title {
+.features-title {
   color: #242a45;
   margin-top: 0;
   margin-bottom: 16px;
   text-align: center;
   font-size: 32px;
+  line-height: 52px;
 }
 
-.feature-text {
+.features-text {
   color: #242a45;
+  margin-top: 0;
+  margin-bottom: 72px;
   text-align: center;
   font-size: 18px;
+  line-height: 28px;
 }
 
-.feature-list {
+.features-list {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
-  margin-top: 72px;
   list-style: none;
 }
 
-.feature-iteam {
-  margin-right: 90px;
-}
-
-.feature-link {
+.features-link {
   color: #242a45;
   text-decoration-line: none;
   font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
 }
 
-.feature-desk {
+.features-link:hover {
+  color: #fa5959;
+}
+
+.features-box {
   display: flex;
-  margin-top: 72px;
+  margin-top: 73px;
 }
 
-.click-box {
-  width: 445px;
-  margin-top: 129px;
-  margin-left: 129px;
+.features-box-click {
+  widows: 445px;
+  margin-left: 125px;
+  margin-top: 58px;
 }
 
-.click-title {
-  color: #242A45;
-  font-size: 32px;
+.features-header {
+  color: #242a45;
   margin-top: 0;
   margin-bottom: 16px;
+  font-size: 32px;
+  line-height: 52px;
 }
 
-.click-text {
-  color: #242A45;
-  font-size: 18px;
+.features-desk {
+  color: #242a45;
   margin-top: 0;
   margin-bottom: 32px;
+  font-size: 18px;
+  line-height: 28px;
 }
 
-.extension-box {
+.features-link-info {
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 24px;
+  text-decoration-line: none;
+  font-weight: 500;
+  line-height: 28px;
+  border-radius: 5px;
+  background: #5267df;
+}
+
+.extension-section {
+  margin-top: 140px;
+}
+
+.extension {
   width: 540px;
-  margin-top: 149px;
   margin-right: auto;
   margin-left: auto;
 }
 
 .extension-title {
-  color: #242A45;
-  text-align: center;
-  font-size: 32px;
+  color: #242a45;
   margin-top: 0;
   margin-bottom: 16px;
+  text-align: center;
+  font-size: 32px;
+  line-height: 52px;
 }
 
 .extension-text {
-  color: #242A45;
+  color: #242a45;
+  margin: 0;
   text-align: center;
   font-size: 18px;
-  margin-top: 0;
-  margin-bottom: 48px;
+  line-height: 28px;
 }
 
 .extension-list {
   display: flex;
-  list-style: none;
-  text-align: center;
+  justify-content: center;
   margin: 0;
   padding: 0;
-}
-
-.title {
-  color: #242A45;
-  text-align: center;
-  font-size: 20px;
-  margin-top: 32px;
-  margin-bottom: 6px;
-}
-
-.desk {
-  color: #242A45;
-  text-align: center;
-  font-size: 15px;
-  margin-top: 0;
-  margin-bottom: 32px;
-}
-
-.extension-link {
-  display: inline-block;
-  background: #5267DF;
-  color: #FFF;
-  text-align: center;
-  text-decoration-line: none;
-  padding: 10px 35px;
-  border-radius: 5px;
-  font-size: 14px;
-  margin-top: 24px;
-}
-
-.faq {
-  width: 540px;
-  margin-top: 173px;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-}
-
-.faq-title {
-  color: #242A45;
-  text-align: center;
-  font-size: 32px;
-  margin-top: 0;
-  margin-bottom: 16px;
-}
-
-.faq-text {
-  color: #242A45;
-  text-align: center;
-  font-size: 18px;
-  margin-top: 0;
-  margin-bottom: 56px;
-}
-
-.faq-list {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
-.faq-iteam {
-  margin-bottom: 33px;
+.extension-img {
+  margin: 49px 89px;
 }
 
-.faq-desk {
-  display: inline-block;
-  margin: 0;
-  color: #242A45;
-  font-size: 18px;
-}
-
-.text {
-  margin-right: 341px;
-}
-
-.browser {
-  margin-right: 235px;
-}
-
-.mobile {
-  margin-right: 325px;
+.extension-item {
+  margin-right: 34px;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 10px 20px -5px #495dcf33; 
 }
 
 .chrome {
-  margin-right: 200px;
+  margin-top: 48px;
 }
 
-.faq-link {
+.firefox {
+  margin-top: 88px;
+}
+
+.opera {
+  margin-top: 128px;
+}
+
+.extension-header {
+  color: #242a45;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 6px;
+  font-size: 20px;
+}
+
+.extension-desk {
+  color: #242a4599;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+.extension-link {
+  display: block;
+  color: #fff;
+  margin: 24px;
+  padding: 10px 35px;
+  text-align: center;
+  text-decoration-line: none;
+  font-size: 14px;
+  border-radius: 5px;
+  background: #5267DF;
+  font-weight: 500;
+  line-height: 28px;
+  border: 2px solid transparent;
+}
+
+.extension-link:hover {
+  background-color: #fff;
+  color: #5267df;
+  border-radius: 5px;
+  border: 2px solid #5267DF;
+}
+
+.section-questions {
+  margin-top: 149px;
+}
+
+.question {
+  width: 540px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.question-title {
+  color: #242a45;
+  margin-top: 0;
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 32px;
+  line-height: 52px;
+}
+
+.question-text {
+  color: #242a45;
+  margin-top: 0;
+  margin-bottom: 56px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.question-list {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.question-item {
+  display: flex;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  margin-bottom: 33px;
+}
+
+.faq-item {
+  margin-bottom: 68px;
+}
+
+.question-item-link {
+  color: #242A45;
+  text-decoration-line: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.question-item-link:hover {
+  color: #fa5959;
+}
+
+.question-link {
   display: inline-block;
-  margin-top: 54px;
-  margin-bottom: 150px;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 24px;
+  text-decoration-line: none;
+  border-radius: 5px;
+  background: #5267DF;
+  font-weight: 500;
+  line-height: 28px;
 }
 
 .artic {
   background-color: #5267df;
+  margin-top: 150px;
+  padding-top: 58px;
+  padding-bottom: 78px;
 }
 
 .artic-box {
   width: 408px;
+  text-align: center;
   margin-right: auto;
   margin-left: auto;
 }
 
-.artix-number {
-  display: inline-block;
+.artic-text {
   color: #fff;
-  margin-top: 58px;
+  margin: 0;
+  text-align: center;
   font-size: 13px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 5px;
 }
 
 .artic-title {
   color: #fff;
   margin-top: 24px;
   margin-bottom: 36px;
+  text-align: center;
+  font-size: 32px;
+  line-height: 40px;
 }
 
 .artic-link {
   display: inline-block;
-  background-color: #fa5959;
-  color: #fff;
-  font-size: 14px;
-  margin-top: 36px;
-  margin-bottom: 74px;
-  padding: 10px 24px;
-  border-radius: 5px;
-  text-decoration-line: none;
 }
 
 .site-footer {
@@ -330,26 +456,42 @@ body {
 
 .footer-box {
   display: flex;
-  padding: 32px 0;
   align-items: center;
+}
+
+.site-footer {
+  padding-block: 32px;
 }
 
 .footer-list {
   display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  margin-right: 515px;
+  margin-block: 0;
   margin-left: 65px;
+  padding: 0;
+  list-style: none;
 }
 
-.footer-iteam {
+.footer-item {
   margin-right: 44px;
 }
 
+.footer-list-item {
+  margin: 0;
+}
+
 .footer-link {
-  color: #FFF;
-  text-align: right;
-  font-size: 13px;
+  color: #fff;
   text-decoration-line: none;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 1.5px;
+}
+
+.footer-logo-list {
+  margin-left: 515px;
+}
+
+.footer-logo-item {
+  margin-right: 50px;
 }
